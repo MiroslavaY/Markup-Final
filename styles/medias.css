@@ -1,0 +1,21 @@
+@media all and (max-width: 925px) {
+
+    .bullet-points article {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 750px) {
+
+    .bullet-points {
+        background-image: none;
+    }
+
+    .bullet-points article {
+        width: 90%;
+    }
+
+    .additional-info {
+        flex-direction: column;
+    }
+}
